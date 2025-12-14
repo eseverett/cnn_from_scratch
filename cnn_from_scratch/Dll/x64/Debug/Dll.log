@@ -1,0 +1,21 @@
+﻿  pch.c
+  dllmain.c
+  tensor.c
+C:\Users\ejsev\Desktop\repos\cnn_from_scratch\cnn_from_scratch\Dll\tensor.c(17,32): warning C4013: 'malloc' undefined; assuming extern returning int
+  (compiling source file '/tensor.c')
+  
+C:\Users\ejsev\Desktop\repos\cnn_from_scratch\cnn_from_scratch\Dll\tensor.c(17,21): warning C4312: 'type cast': conversion from 'int' to 'tensor_t *' of greater size
+  (compiling source file '/tensor.c')
+  
+C:\Users\ejsev\Desktop\repos\cnn_from_scratch\cnn_from_scratch\Dll\tensor.c(25,25): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
+  (compiling source file '/tensor.c')
+  
+C:\Users\ejsev\Desktop\repos\cnn_from_scratch\cnn_from_scratch\Dll\tensor.c(28,3): warning C4013: 'free' undefined; assuming extern returning int
+  (compiling source file '/tensor.c')
+  
+C:\Users\ejsev\Desktop\repos\cnn_from_scratch\cnn_from_scratch\Dll\tensor.c(46,17): warning C4312: 'type cast': conversion from 'int' to 'float *' of greater size
+  (compiling source file '/tensor.c')
+  
+  Generating Code...
+     Creating library C:\Users\ejsev\Desktop\repos\cnn_from_scratch\cnn_from_scratch\x64\Debug\Dll.lib and object C:\Users\ejsev\Desktop\repos\cnn_from_scratch\cnn_from_scratch\x64\Debug\Dll.exp
+  Dll.vcxproj -> C:\Users\ejsev\Desktop\repos\cnn_from_scratch\cnn_from_scratch\x64\Debug\Dll.dll

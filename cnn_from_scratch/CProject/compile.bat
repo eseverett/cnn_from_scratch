@@ -1,1 +1,0 @@
-cl /LD tensor.c /Fe:cnn_from_scratch.dll

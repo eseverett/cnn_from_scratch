@@ -1,14 +1,19 @@
 import ctypes
 from pathlib import Path
 import numpy as np
+import os
 
 # ---------------------------------------------------------------------
 # 1. Load the DLL
 # ---------------------------------------------------------------------
-dll_name = "cnn_from_scratch.dll"   # change if you picked a different name
-here = Path(__file__).resolve().parent 
-dll_path = here.parent / "CProject" / dll_name
-print(dll_path)
+here = Path(__file__).resolve().parent
+root = here.parent  # ...\cnn_from_scratch\cnn_from_scratch
+
+dll_name = "Dll.dll"  # whatever VS produced
+dll_path = root / "x64" / "Debug" / dll_name
+
+print("Loading:", dll_path)
+os.add_dll_directory(str(dll_path.parent))
 cnn = ctypes.CDLL(str(dll_path))
 
 # ---------------------------------------------------------------------
